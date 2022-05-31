@@ -64,6 +64,7 @@ public class VerifyHeader {
 		id=100;
 		String url=driver.getCurrentUrl();
 		Assert.assertEquals(url,"https://online.actitime.com/xyz17/timetrack/enter.do");
+		System.out.println("Test is passed");
 	}
 	@Test(priority= 1)
 	public void verifytasktab()
