@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="3" parallel="classes" name="Failed suite [Failed suite [Suite]]" guice-stage="DEVELOPMENT">
+  <test thread-count="3" parallel="classes" name="FirefoxTest(failed)(failed)">
+    <parameter name="browserName" value="Firefox"/>
+    <classes>
+      <class name="testclass.BugFixingWindowVerify">
+        <methods>
+          <include name="clearObject"/>
+          <include name="logoutfromapp"/>
+          <include name="logintoapp"/>
+          <include name="verifybugfixing"/>
+          <include name="launchbrowser"/>
+          <include name="closebrowser"/>
+          <include name="createPomObject"/>
+        </methods>
+      </class> <!-- testclass.BugFixingWindowVerify -->
+    </classes>
+  </test> <!-- FirefoxTest(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [Suite]] -->
